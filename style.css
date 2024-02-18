@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg ,rgb(179, 46, 46),white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: center; */
+}
+.container{
+    width: 250px;
+    height: 400px;
+    /* position: relative;
+    right: 200px; */
+    background-color: rgb(45, 45, 54);
+    border-radius: 13px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.heading{
+    height: 15px;
+    width: 15px;
+    border: 0.5px solid rgb(58, 49, 49);
+    border-radius: 50%;
+    background: linear-gradient(150deg,rgb(183, 162, 162) ,rgb(192, 158, 158));
+}
+.outputbtn{
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.outputbtn >input{
+    height: 50%;
+    width: 100%;
+    background: transparent;
+    cursor: pointer;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    border: none;
+    outline: none;
+
+}
+.outputbtn> input>value{
+    margin: 5px;
+}
+.btns{
+    height: 70%;
+    width: 90%;
+    /* border: 2px solid black; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+.boxs{
+    height: 50px;
+    width: 50px;
+    /* margin: 2px; */
+    margin-left: 2px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    background: transparent;
+
+}
+.equal{
+    height: 50px;
+    width: 100px;
+}
+
+.ac ,.de,.dot,.divide ,.star,.sub,.add,.equal{
+    color: #33ffd8;
+}
